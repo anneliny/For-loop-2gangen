@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 gangen</title>
+</head>
+<body>
+    
+    <button onclick="pressForNumbers()">2 gangen</button>
+    <div id="listOfNumbers"></div>
+    
+    <script>
+    
+    function pressForNumbers(){
+        let stopNum = 20;
+    for (let addNum = 2; addNum<=stopNum; addNum +=2)
+    document.getElementById('listOfNumbers').innerHTML += '<li>'+ addNum;
+
+    }
+    </script>
+
+</body>
+</html>
